@@ -1,11 +1,12 @@
-﻿import WeatherDashboard from './components/WeatherDashboard'
+﻿import './styles/App.css';
+import WeatherDashboard from './components/WeatherDashboard';
 
 function App() {
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#242424', color: 'white' }}>
+    <div className="app-wrapper">
       <WeatherDashboard />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

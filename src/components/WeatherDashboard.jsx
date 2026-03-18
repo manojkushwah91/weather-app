@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { getWeatherByCity } from '../services/weatherApi';
-import '../App.css';
+import '../styles/Weather.css';
 
 export default function WeatherDashboard() {
   const [cityInput, setCityInput] = useState('');
